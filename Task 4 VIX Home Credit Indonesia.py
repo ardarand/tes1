@@ -29,5 +29,7 @@ filter = cond1 & cond2 & cond3
 
 filtered_marketing = marketing[filter]
 #abcdefghijklmnopq
+print('abdcdefghijklmnopq)
+
 #Urutan kategori umur berdasarkan jumlahnya
 print(filtered_marketing['AGE_GROUP'].value_counts(sort=True))
